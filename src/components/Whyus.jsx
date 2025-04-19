@@ -1,6 +1,6 @@
-import SectionHeader from "../Ui/SectionHeader";
 import WhyusCard from "./WhyusCard";
 import { motion } from "framer-motion";
+import FullSectionHeader from "./FullSectionHeader";
 
 const container = {
   hidden: { opacity: 0, y: 50 },
@@ -45,7 +45,7 @@ const Whyus = () => {
 
   return (
     <motion.section
-    className=" px-4 md:px-8 lg:px-16  bg-[url(/WhyusBackground.png)]  bg-repeat bg-contain flex flex-col items-center pt-8  gap-4"
+    className=" px-4 md:px-8 lg:px-16   flex flex-col items-center pt-8  gap-4"
     variants={container}
     initial="hidden"
     whileInView="visible"
@@ -56,13 +56,7 @@ const Whyus = () => {
         className="flex flex-col text-center items-center justify-center gap-4  max-w-[550px] "
         variants={child}
       >
-        <SectionHeader>DLACZEGO WARTO NAS WYBRAĆ?</SectionHeader>
-        <h2 className="text-white font-header text-xl uppercase md:text-2xl lg:text-3xl">
-          Tworzymy Najlepsze Doświadczenia Kulinarne
-        </h2>
-        <p className="text-base text-white leading-relaxed max-w-prose">
-          Nasza oferta to nie tylko jedzenie – to prawdziwa podróż kulinarna. Każdy kęs to eksplozja smaków, które przeniosą Cię w świat
-        </p>
+        <FullSectionHeader top="DLACZEGO WARTO NAS WYBRAĆ?" center="Tworzymy Najlepsze Doświadczenia Kulinarne" bottom="Nasza oferta to nie tylko jedzenie – to prawdziwa podróż kulinarna. Każdy kęs to eksplozja smaków, które przeniosą Cię w świat"/>
       </motion.div>
 
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-24  w-full ">

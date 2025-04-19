@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import SectionHeader from "../Ui/SectionHeader";
 import SpecialtyCard from "./SpecialtyCard";
 import Button from "../Ui/Button";
+import FullSectionHeader from "./FullSectionHeader";
 const specialtiesList = [
     {
       title: "Beef Carpaccio",
@@ -43,7 +43,7 @@ const specialtiesList = [
 
  const  Specialties = () => {
     return (
-        <section className="flex flex-col gap-16  w-full    px-4 md:px-8 lg:px-16 bg-[url(/WhyusBackground.png)]  bg-repeat bg-contain pt-16">
+        <section className="flex flex-col gap-16  w-full    px-4 md:px-8 lg:px-16  pt-16">
             <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -51,13 +51,7 @@ const specialtiesList = [
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="flex flex-col gap-4 w-full items-center py-8"
             >
-                <SectionHeader>WYRÓŻNIONE</SectionHeader>
-                <h2 className="text-white font-header leading-tight text-xl uppercase md:text-2xl lg:text-3xl">
-                    NASZE SPECJAŁY
-                </h2>
-                <p className="text-base text-white leading-relaxed max-w-prose text-center">
-                    Odkryj smak dań tworzonych z pasją i dbałością o każdy detal. Nasz szef kuchni łączy najwyższej jakości składniki, by stworzyć kompozycje, które zachwycają nie tylko smakiem, ale i sercem włożonym w ich przygotowanie.
-                </p>
+                <FullSectionHeader top="WYRÓŻNIONE" center="NASZE SPECJAŁY" bottom="Odkryj smak dań tworzonych z pasją i dbałością o każdy detal. Nasz szef kuchni łączy najwyższej jakości składniki, by stworzyć kompozycje, które zachwycają nie tylko smakiem, ale i sercem włożonym w ich przygotowanie."/>
             </motion.div>
             <div className="flex flex-col gap-16 lg:grid xl:gap-32 lg:grid-cols-2    ">
                 {specialtiesList.map((item, index) => (

@@ -105,7 +105,7 @@ const Navbar = () => {
         </AnimatePresence>
         {isExpanded && (
           <div
-            className="fixed inset-0 z-1 bg-black opacity-60 "
+            className="fixed inset-0 z-1 bg-black opacity-80 "
             onClick={toggleNavbar}
           ></div>
         )}

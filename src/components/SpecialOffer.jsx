@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import SectionHeader from "../Ui/SectionHeader";
 import Button from "../Ui/Button";
+import SectionHeader from "../Ui/SectionHeader";
 
 const SpecialOffer = () => {
   return (
@@ -42,6 +42,8 @@ const SpecialOffer = () => {
           <p className="text-base text-white leading-relaxed max-w-prose mt-4">
             Wyjątkowa kompozycja pikantnego bulionu z pastą sezamową, mielonym mięsem, jajkiem ramen i świeżym szczypiorkiem. Głęboki, intensywny smak z nutą ostrości – idealny na większy głód.
           </p>
+          
+          
         </div>
 
         {/* Cena i przycisk z animacją scale */}

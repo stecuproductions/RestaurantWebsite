@@ -1,24 +1,19 @@
-import HeroSection from './components/HeroSection'
-import Navbar from './components/Navbar'
-import Whyus from "./components/Whyus";
-import SpecialOffer from './components/SpecialOffer';
-import Specialities from './components/Specialties';
-import Contact from './components/Contact';
-import Testimonials from './components/Testimonials';
+import {Routes, Route} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './Home';
+import Footer from './components/Footer';
 import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div className='flex flex-col gap-8'>
+    <div className=' bg-[url(/WhyusBackground.png)]  bg-repeat bg-contain'>
       <Navbar />
-      <HeroSection />
-      <Whyus />
-      <SpecialOffer />
-      <Specialities />
-      <Testimonials />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
     </div>
+
   )
 }
 
-export default App

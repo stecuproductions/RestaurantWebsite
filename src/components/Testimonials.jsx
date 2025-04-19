@@ -1,5 +1,6 @@
-import SectionHeader from "../Ui/SectionHeader";
+import FullSectionHeader from "./FullSectionHeader";
 import { Star } from "lucide-react"
+import { motion } from "framer-motion";
 const reviews = [
     {
         id: 1,
@@ -36,9 +37,7 @@ const Testimonials = () => {
     return (
         <section className="mt-8 flex flex-col items-center gap-4 justify-center  px-4 md:px-8 lg:px-16 py-4">
             <div className="flex flex-col items-center gap-4 text-center">
-                <SectionHeader>RECENZJE</SectionHeader>
-                <h2 className="text-white font-header text-xl mt-4 md:text-2xl lg:text-3xl">CO MÓWIĄ O NAS GOŚCIE</h2>
-                <p className="text-base text-white leading-relaxed max-w-prose mt-4">Poznaj autentyczne opinie naszych gości, którzy doświadczyli wyjątkowych smaków i atmosfery w naszej restauracji.</p>
+                <FullSectionHeader top="RECENZJE" center="CO MÓWIĄ O NAS GOŚCIE" bottom="Poznaj autentyczne opinie naszych gości, którzy doświadczyli wyjątkowych smaków i atmosfery w naszej restauracji." />
             </div>
             <div className="flex flex-col gap-8 mt-8">
                 {reviews.map((review) => (
