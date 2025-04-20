@@ -52,3 +52,14 @@ p, span, a, li, label, button {
 }
 
 
+/* usuwa strzałki w Chrome, Safari, Edge */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* usuwa strzałki w Firefoxie */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

@@ -44,7 +44,7 @@ const Navbar = () => {
         </h1>
 
         {/* Desktop menu */}
-        <div className='hidden md:flex gap-4 items-center'>
+        <div className='hidden md:flex gap-6 items-center'>
           {navbarList.map((item, index) => (
             <a
               key={index}

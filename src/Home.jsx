@@ -5,7 +5,7 @@ import SpecialOffer from './components/SpecialOffer';
 import Specialities from './components/Specialties';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
+import BookTable from './components/BookTable';
 
 function Home() {
   return (
@@ -15,6 +15,7 @@ function Home() {
       <Whyus />
       <SpecialOffer />
       <Specialities />
+      <BookTable />
       <Testimonials />
       <Contact />
     </div>
