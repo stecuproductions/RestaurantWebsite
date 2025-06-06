@@ -5,7 +5,7 @@ import Button from '../Ui/Button';
 import {MapPin} from "lucide-react";
 const navbarList = [
   { name: 'O Nas', link: '/' },
-  { name: 'Menu', link: '/Menu' },
+  { name: 'Menu', link: '/menu' },
   { name: 'Kontakt', link: '/#kontakt' },
 ];
 
