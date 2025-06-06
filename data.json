@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "name": "Przystawki",
+      "items": [
+        {
+          "id": 1,
+          "name": "Bruschetta z pomidorami",
+          "description": "Grzanka z czosnkiem, oliwą i świeżymi pomidorami",
+          "price": 14.99,
+          "allergens": ["gluten"],
+          "imageUrl": "https://example.com/images/bruschetta.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Tatar wołowy",
+          "description": "Klasyczny tatar z cebulą, ogórkiem i żółtkiem",
+          "price": 26.50,
+          "allergens": ["jajka", "gluten", "soja"],
+          "imageUrl": "https://example.com/images/tatar.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Zupy",
+      "items": [
+        {
+          "id": 3,
+          "name": "Rosół z kury",
+          "description": "Domowy rosół z makaronem i marchewką",
+          "price": 12.00,
+          "allergens": ["gluten", "seler", "jajka"],
+          "imageUrl": "https://example.com/images/rosol.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Krem z pomidorów",
+          "description": "Gęsty krem pomidorowy z bazylią i grzankami",
+          "price": 13.50,
+          "allergens": ["mleko", "gluten"],
+          "imageUrl": "https://example.com/images/krem_pomidorowy.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Dania główne",
+      "items": [
+        {
+          "id": 5,
+          "name": "Kotlet schabowy",
+          "description": "Ziemniaki, mizeria, kotlet panierowany",
+          "price": 29.90,
+          "allergens": ["gluten", "jajka"],
+          "imageUrl": "https://example.com/images/schabowy.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Pierś z kurczaka w sosie śmietanowym",
+          "description": "Kurczak z makaronem i brokułami",
+          "price": 32.00,
+          "allergens": ["mleko", "gluten"],
+          "imageUrl": "https://example.com/images/kurczak_sos.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Burger wołowy",
+          "description": "Wołowina, bułka brioche, ser cheddar, bekon",
+          "price": 34.00,
+          "allergens": ["gluten", "mleko", "jajka"],
+          "imageUrl": "https://example.com/images/burger.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Desery",
+      "items": [
+        {
+          "id": 8,
+          "name": "Sernik nowojorski",
+          "description": "Z musem malinowym i miętą",
+          "price": 16.00,
+          "allergens": ["mleko", "jajka", "gluten"],
+          "imageUrl": "https://example.com/images/sernik.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Lody waniliowe z polewą czekoladową",
+          "description": "Domowe lody waniliowe",
+          "price": 11.50,
+          "allergens": ["mleko"],
+          "imageUrl": "https://example.com/images/lody.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Napoje",
+      "items": [
+        {
+          "id": 10,
+          "name": "Woda mineralna",
+          "description": "Gazowana / niegazowana",
+          "price": 6.00,
+          "allergens": [],
+          "imageUrl": "https://example.com/images/woda.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Lemoniada domowa",
+          "description": "Z cytryną, miętą i miodem",
+          "price": 9.00,
+          "allergens": [],
+          "imageUrl": "https://example.com/images/lemoniada.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Cola / Fanta / Sprite",
+          "description": "0.33l puszka",
+          "price": 7.00,
+          "allergens": [],
+          "imageUrl": "https://example.com/images/cola.jpg"
+        }
+      ]
+    }
+  ]
+}

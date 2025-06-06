@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'tailwindcss';
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Element	Rozmiar (przykład)
+H1 (nagłówek główny)	text-4xl → 36px
+H2	text-3xl → 30px
+H3	text-2xl → 24px
+Paragraf (tekst)	text-base → 16px
+Opis, labelka	text-sm → 14px
+Drobny tekst	text-xs → 12px
+Nagłówki: font-semibold (600)
+
+Tekst: font-normal (400)
+
+Akcent: font-medium (500)
+
+Button: font-bold jeśli chcesz uwagę
+
+H1/H2	leading-tight (1.25)	zwięzły, elegancki
+Paragrafy	leading-relaxed (1.625)	wygodne do czytania
+Labelki	leading-none lub normal	np. w formularzach
+SZEROKOSC TEKSTU
+<div class="max-w-prose">
+  <p>Twój paragraf tutaj</p>
+</div>
+*/
+
+:root{
+  --font-header: 'Poppins', sans-serif; /*naglowki*/
+  --font-body : 'Rubik', sans-serif; /*tekt*/
+  --color-primary-color:#000000;
+  --color-secondary-color:#C19D60;
+}
+@theme{
+  --font-header: 'Poppins', sans-serif; /*naglowki*/
+  --font-body : 'DM Sans', sans-serif; /*tekt*/
+  --color-primary-color:#000000;
+  --color-secondary-color:#C19D60;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+  font-weight: 600;
+}
+p, span, a, li, label, button {
+  font-family: var(--font-body);
+}
+
+
+/* usuwa strzałki w Chrome, Safari, Edge */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* usuwa strzałki w Firefoxie */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

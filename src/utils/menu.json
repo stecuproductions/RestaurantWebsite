@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Przystawki",
+    "items": [
+      {
+        "id": 1,
+        "name": "Bruschetta z pomidorami",
+        "description": "Grzanka z czosnkiem, oliwą i świeżymi pomidorami",
+        "price": 14.99,
+        "allergens": ["gluten"],
+        "imageUrl": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg",
+      "special": true
+
+      },
+      {
+        "id": 2,
+        "name": "Tatar wołowy",
+        "description": "Klasyczny tatar z cebulą, ogórkiem i żółtkiem",
+        "price": 26.50,
+        "allergens": ["jajka", "gluten", "soja"],
+        "imageUrl": "https://images.pexels.com/photos/10296416/pexels-photo-10296416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
+    ]
+  },
+  {
+    "name": "Zupy",
+    "items": [
+      {
+        "id": 3,
+        "name": "Rosół z kury",
+        "description": "Domowy rosół z makaronem i marchewką",
+        "price": 12.00,
+        "allergens": ["gluten", "seler", "jajka"],
+        "imageUrl": "https://images.pexels.com/photos/1001773/pexels-photo-1001773.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "special": true
+
+      },
+      {
+        "id": 4,
+        "name": "Krem z pomidorów",
+        "description": "Gęsty krem pomidorowy z bazylią i grzankami",
+        "price": 13.50,
+        "allergens": ["mleko", "gluten"],
+        "imageUrl": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "special": true
+
+      }
+    ]
+  },
+  {
+    "name": "Dania główne",
+    "items": [
+      {
+        "id": 5,
+        "name": "Kotlet schabowy",
+        "description": "Ziemniaki, mizeria, kotlet panierowany",
+        "price": 29.90,
+        "allergens": ["gluten", "jajka"],
+        "imageUrl": "https://images.pexels.com/photos/5652258/pexels-photo-5652258.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 6,
+        "name": "Pierś z kurczaka w sosie śmietanowym",
+        "description": "Kurczak z makaronem i brokułami",
+        "price": 32.00,
+        "allergens": ["mleko", "gluten"],
+        "imageUrl": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 7,
+        "name": "Burger wołowy",
+        "description": "Wołowina, bułka brioche, ser cheddar, bekon",
+        "price": 34.00,
+        "allergens": ["gluten", "mleko", "jajka"],
+        "imageUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600"
+      }
+    ]
+  },
+  {
+    "name": "Desery",
+    "items": [
+      {
+        "id": 8,
+        "name": "Sernik nowojorski",
+        "description": "Z musem malinowym i miętą",
+        "price": 16.00,
+        "allergens": ["mleko", "jajka", "gluten"],
+        "imageUrl": "https://images.pexels.com/photos/1098592/pexels-photo-1098592.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "special": true
+
+      },
+      {
+        "id": 9,
+        "name": "Lody waniliowe z polewą czekoladową",
+        "description": "Domowe lody waniliowe",
+        "price": 11.50,
+        "allergens": ["mleko"],
+        "imageUrl": "https://images.pexels.com/photos/1752506/pexels-photo-1752506.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "special": true
+
+      }
+    ]
+  },
+  {
+    "name": "Napoje",
+    "items": [
+      {
+        "id": 10,
+        "name": "Woda mineralna",
+        "description": "Gazowana / niegazowana",
+        "price": 6.00,
+        "allergens": [],
+        "imageUrl": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      {
+        "id": 11,
+        "name": "Lemoniada domowa",
+        "description": "Z cytryną, miętą i miodem",
+        "price": 9.00,
+        "allergens": [],
+        "imageUrl": "https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "special": true
+
+      },
+      {
+        "id": 12,
+        "name": "Sprite",
+        "description": "0.33l puszka",
+        "price": 7.00,
+        "allergens": [],
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnrmG4CvroGLNGQHB6p4ZxKXu1ZmFHo3h-OA&s",
+        "special": true
+      }
+    ]
+  }
+]
