@@ -26,9 +26,11 @@ const SpecialtyCard = ({ title, description, price, img }) => {
           </div>
           <p className="text-base text-white leading-relaxed">{description}</p>
         </div>
-        <Button variant="primary" className="w-full">
-          Czytaj Więcej
-        </Button>
+        <a href="/menu">
+          <Button variant="primary" className="w-full">
+            Czytaj Więcej
+          </Button>
+        </a>
       </div>
     </motion.div>
   );

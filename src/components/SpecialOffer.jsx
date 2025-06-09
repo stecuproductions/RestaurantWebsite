@@ -59,7 +59,7 @@ const SpecialOffer = () => {
             <span className="line-through text-gray-500 ml-2">65 zł</span>
           </div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button>Zamów już dziś</Button>
+            <a href="#zarezerwuj"><Button>Zamów już dziś</Button></a>
           </motion.div>
         </motion.div>
       </motion.div>
